@@ -68,7 +68,7 @@ class ClusterService:
 
         # Ghi dữ liệu vào tệp JSON
         current_time = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
-        filename = f'clusters_{current_time}.json'
+        filename = f'storage/clusters_{current_time}.json'
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(result_data, f, ensure_ascii=False, indent=4)
 
