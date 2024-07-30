@@ -1,0 +1,331 @@
+{
+    "num_clusters": 27,
+    "num_clustered_documents": 72,
+    "num_noise_documents": 115,
+    "clusters": [
+        {
+            "cluster_id": 0,
+            "documents": [
+                "Bảng xếp hạng bóng đá nam Olympic 2024 - Cập nhật bảng xếp hạng bóng đá nam Olympic Paris 2024 nhanh, đầy đủ và chính xác.",
+                "Lịch thi đấu Olympic 2024 - Cập nhật lịch thi đấu của các VĐV Việt Nam tranh tài tại Thế vận hội Paris hôm nay 28/7.",
+                "Lịch thi đấu bóng đá hôm nay 28/7/2024 - Cung cấp lịch thi đấu bóng đá trong nước và các giải đấu quốc tế hấp dẫn đêm nay, rạng sáng mai.",
+                "Vượt qua Guinea với tỷ số 1-0, Pháp có chiến thắng thứ hai liên tiếp để giành quyền vào vòng tứ kết môn bóng đá nam Olympic 2024.",
+                "Lịch thi đấu bóng đá Olympic 2024 - Cập nhật liên tục lịch thi đấu môn bóng đá nam Olympic Paris 2024 đầy đủ và chính xác.",
+                "Chiến thắng tối thiểu 1-0 trước Olympic Mali đưa Olympic Nhật Bản vào vòng tứ kết môn bóng đá nam Olympic 2024 trước một lượt trận.",
+                "Kết quả bóng đá Olympic 2024 - Cập nhật liên tục kết quả môn bóng đá nam Olympic Paris 2024 đầy đủ và chính xác."
+            ]
+        },
+        {
+            "cluster_id": 1,
+            "documents": [
+                "Niềm hy vọng huy chương lớn nhất của đoàn TTVN Trịnh Thu Vinh xếp thứ 4 chung cuộc ở chung kết nội dung 10m súng ngắn hơi nữ tại Olympic 2024.",
+                "Sau 7 lượt bắn, Trịnh Thu Vinh giành 198,6 điểm. Cô chỉ về đích ở vị trí thứ 4 chung cuộc ở nội dung 10m súng ngắn hơi nữ tại Olympic 2024.",
+                "Trịnh Thu Vinh đạt tổng số 198,6 điểm ở chung kết nội dung 10m súng ngắn hơi. Quá đáng tiếc khi xạ thủ của Việt Nam xếp thứ 4 chung cuộc, hụt vị trí top 3 có thể tranh chấp huy chương Olympic 2024.",
+                "Không có nhiều vận động viên (VĐV) Việt Nam thi đấu trong ngày 28/7, nhưng chúng ta có cơ hội giành huy chương hôm nay, khi Trịnh Thu Vinh thi đấu chung kết 10m súng ngắn hơi nữ.",
+                "Xạ thủ Trịnh Thu Vinh bước vào chung kết, tranh huy chương Olympic Paris 2024 ở nội dung sở trường 10m súng hơi ngắn nữ."
+            ]
+        },
+        {
+            "cluster_id": 2,
+            "documents": [
+                "Trong thư chia buồn, Tổng thống Joe Biden viết: \"Tôi rất tự hào được đứng cùng Tổng Bí thư trong chuyến thăm tới Hà Nội năm trước và cùng nhau mở ra kỷ nguyên hợp tác mới giữa hai nước\".",
+                "Tại cuộc gặp với Chủ tịch nước Tô Lâm, Ngoại trưởng Mỹ đã chuyển lá thư chia buồn của Tổng thống Joe Biden bày tỏ tiếc thương và trân trọng đóng góp của Tổng Bí thư trong củng cố, vun đắp quan hệ Việt Nam - Mỹ.",
+                "Thủ tướng Phạm Minh Chính tiếp Ngoại trưởng Hoa Kỳ Antony Blinken nhân dịp Ngoại trưởng sang thăm Việt Nam để chia buồn cùng Chính phủ, nhân dân Việt Nam và gia quyến Tổng Bí thư Nguyễn Phú Trọng.",
+                "Ngày 27/7, tại Phủ Chủ tịch, Chủ tịch nước Tô Lâm thay mặt lãnh đạo Đảng, Nhà nước tiếp Ngoại trưởng Hoa Kỳ Antony Blinken sang Việt Nam chia buồn và viếng cố Tổng Bí thư Nguyễn Phú Trọng.",
+                "Tổng Bí thư Nguyễn Phú Trọng đã ra đi trong vòng tay yêu thương, kính trọng của nhân dân. Ông là người của nhân dân, đã chiếm trọn trái tim và tấm lòng của con người Việt Nam và không ít bạn bè thế giới."
+            ]
+        },
+        {
+            "cluster_id": 3,
+            "documents": [
+                "Đánh bại TKSVN 2-1 và TP.HCM 1-0 ở 2 lượt trận cuối, Hà Nội lên ngôi vô địch giải bóng đá nữ vô địch U16 Quốc gia 2024.",
+                "Một điểm trước Than KSVN là đủ để TP.HCM I bảo vệ thành công ngôi vô địch giải nữ VĐQG – Cúp Thái Sơn Bắc 2024.",
+                "Trận hòa 2-2 với Than Khoáng Sản Việt Nam (KSVN) trong buổi chiều 28/7, vừa đủ để đội bóng đá nữ TPHCM lên ngôi tại giải vô địch quốc gia (VĐQG) 2024.",
+                "Hai mùa giải liên tiếp Hà Nội FC hụt chức vô địch V-League, nhưng những gì mà đội bóng Thủ đô đang có lại là điều mà bóng đá Việt Nam cần đi theo."
+            ]
+        },
+        {
+            "cluster_id": 4,
+            "documents": [
+                "Để kích cầu tiêu dùng, những mẫu xe trong phân khúc MPV dưới 700 triệu đồng trên thị trường Việt Nam đang “nhảy” vào cuộc đua giảm giá thông qua chính sách ưu đãi lệ phí trước bạ.",
+                "Mẫu iPhone đỉnh cao một thời giảm giá rất mạnh, hạ gần 16 triệu đồng so với thời điểm mới ra mắt. Nhiều mẫu xe máy trên thị trường cũng liên tục được giảm giá.",
+                "Giá vàng hôm nay 28/7/2024 trên thị trường thế giới kết thúc tuần tăng giảm liên tục. Thị trường lạc quan về triển vọng của giá vàng trong thời gian tới.",
+                "Quỹ giao dịch hoán đổi (ETF) vàng - \"cá mập\" trên thị trường vàng, đã thay đổi quyết định, trở lại mua ròng vàng sau thời gian dài chỉ bán."
+            ]
+        },
+        {
+            "cluster_id": 5,
+            "documents": [
+                "Trong nghề, nhiều đồng nghiệp ngưỡng mộ chuyện tình cảm của cặp nghệ sĩ cải lương Lê Hùng - Tô Thiên Kiều.",
+                "Nghệ sĩ cải lương Lê Hùng đột ngột qua đời do xuất huyết não, hưởng dương 39 tuổi.",
+                "Diễn viên Lê Hùng - chồng của nghệ sĩ, soạn giả cải lương Tô Thiên Kiều - qua đời ở tuổi 39 sau cơn đột quỵ."
+            ]
+        },
+        {
+            "cluster_id": 6,
+            "documents": [
+                "Sau trận thua 1-2 trước Arsenal, Man Utd đã chịu tổn thất lớn khi hai trụ cột dính chấn thương.",
+                "Man Utd thua ngược 1-2 trước Arsenal trong 90 phút thi đấu chính thức, tuy nhiên \"Quỷ đỏ\" đã thắng 4-3 ở loạt sút luân lưu ở trận giao hữu vừa diễn ra tại Mỹ.",
+                "Để thua ngược Arsenal 1-2 ở trận giao hữu trên đất Mỹ, MU còn tổn thất nặng về nhân sự khi cả Hojlund và Leny Yoro tập tễnh rời sân sớm vì chấn thương."
+            ]
+        },
+        {
+            "cluster_id": 7,
+            "documents": [
+                "Ông Nguyễn Quốc Cường (Cường \"Đô La\") chính thức là người đại diện pháp luật của Quốc Cường Gia Lai thay bà Nguyễn Thị Như Loan đang bị bắt tạm giam.",
+                "Lộ diện vai trò của Cường 'Đô la' ở Quốc Cường Gia Lai; đại gia Thanh Hoá bặt tăm sau vụ Trịnh Văn Quyết; Ngân hàng Nhà nước lý giải việc tăng trưởng tín dụng bứt phá... là những thông tin kinh tế đáng chú ý tuần qua.",
+                "Lộ diện vai trò của Cường 'Đô la' ở Quốc Cường Gia Lai; đại gia Thanh Hoá bặt tăm sau vụ Trịnh Văn Quyết; Ngân hàng Nhà nước lý giải việc tăng trưởng tín dụng bứt phá... là những thông tin kinh tế đáng chú ý tuần qua."
+            ]
+        },
+        {
+            "cluster_id": 8,
+            "documents": [
+                "Xe bán tải cố vượt qua đoạn giao cắt giữa đường sắt với đường Phạm Văn Thuận (TP Biên Hòa, Đồng Nai), bị tàu hỏa tông văng ra khiến 2 người tử vong.",
+                "Ôtô bán tải chở ba người đi qua đoạn giao cắt với đường sắt ở TP Biên Hoà, bị tàu lửa tông văng xa gần 10 m, hai người tử vong, tối 28/7."
+            ]
+        },
+        {
+            "cluster_id": 9,
+            "documents": [
+                "ẤN ĐỘ - Một người đàn ông 40 tuổi đã tấn công một trường học, sau khi bị địa phương cấp giấy chứng tử \"oan\".",
+                "ẤN ĐỘ - Một người đàn ông nảy sinh ý tưởng khác thường: phạm tội để chứng minh mình còn sống sau khi bị chính quyền kết luận nhầm là đã chết."
+            ]
+        },
+        {
+            "cluster_id": 10,
+            "documents": [
+                "Mỹ - Sau vài tháng không thể đạt được thỏa thuận giữa hai bên, chủ xe Toyota đã quyết định kiện đại lý bán xe vì cài lén thiết bị theo dõi GPS lên xe mà không được sự đồng ý.",
+                "Mỹ - Sau vài tháng không thể đạt được thỏa thuận giữa hai bên, chủ xe Toyota đã quyết định kiện đại lý bán xe vì cài lén thiết bị theo dõi GPS lên xe mà không được sự đồng ý."
+            ]
+        },
+        {
+            "cluster_id": 11,
+            "documents": [
+                "Với 2 tỷ đồng có thể đầu tư chung cư ở trung tâm là phương án phù hợp hơn nhà đất vùng ven bởi lợi thế có dòng tiền ổn định, thanh khoản cao, theo chuyên gia.",
+                "Dự án Trung tâm kiểm soát không lưu TPHCM là công trình trọng điểm của Bộ Giao thông vận tải, có vốn đầu tư gần 1.500 tỷ đồng."
+            ]
+        },
+        {
+            "cluster_id": 12,
+            "documents": [
+                "Tôi và hai em gái, mỗi người nhận 25% tài sản thừa kế, phần còn lại bố mẹ giữ cho riêng mình, sau này để lại cho cháu đích tôn.",
+                "Em nói vẫn yêu tôi nhưng thấy tôi nhu nhược nên muốn để bố mẹ bắt ép em từ bỏ."
+            ]
+        },
+        {
+            "cluster_id": 13,
+            "documents": [
+                "Cảnh sát đang điều tra vụ trộm cây cầu đường sắt bằng thép nặng 60 tấn, ước tính trị giá 3,5 triệu USD, nhưng bị bán phế liệu với giá hơn 15.000 USD.",
+                "Một cây cầu sắt nặng 60 tấn ở vùng Ryazan đã biến mất một cách bí ẩn, và cảnh sát Nga cho rằng những kẻ trộm đã đem cây cầu này đi bán sắt vụn."
+            ]
+        },
+        {
+            "cluster_id": 14,
+            "documents": [
+                "NSND Quốc Hưng chia sẻ, khi hát ca khúc \"Thiên hùng ca bất tử\" tri ân các anh hùng liệt sĩ của nhạc sĩ Kiên Ninh, anh không kìm nén được sự xúc động.",
+                "\"Anh trai vượt ngàn chông gai\" tập 4 gây chú ý với chi tiết ca sĩ Tuấn Hưng tự đặt mình vào nguy hiểm, rapper Binz và ca sĩ S.T Sơn Thạch chia sẻ nỗi đau ít người biết..."
+            ]
+        },
+        {
+            "cluster_id": 15,
+            "documents": [
+                "Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) vừa thông báo thay đổi nhân sự chủ tịch HĐQT và phó tổng giám đốc phụ trách Ban Điều hành.",
+                "Thành viên HĐQT nhiệm kỳ 2023-2028 kiêm Tổng giám đốc Nguyễn Thanh Tùng được bổ nhiệm làm Chủ tịch HĐQT."
+            ]
+        },
+        {
+            "cluster_id": 16,
+            "documents": [
+                "Vượt qua nhiều sức ép, tay chèo Phạm Thị Huệ xuất sắc vào tứ kết nội dung thuyền đơn nữ hạng nặng môn rowing ở Olympic Paris 2024.",
+                "Phạm Thị Huệ xuất sắc vào tứ kết nội dung thuyền đơn nữ hạng nặng môn rowing ở Olympic Paris 2024. Xạ thủ Lê Thị Mộng Tuyền dừng bước ở vòng loại 10m súng trường hơi nữ môn bắn súng."
+            ]
+        },
+        {
+            "cluster_id": 17,
+            "documents": [
+                "Sau khi chia tay HLV Daiki Iwamasa (người Nhật Bản), Hà Nội FC thông báo bổ nhiệm ông Lê Đức Tuấn làm HLV trưởng ở mùa giải 2024-2025.",
+                "Sáng 28/7, Hà Nội FC công bố HLV trưởng, và đó là gương mặt quen thuộc Lê Đức Tuấn."
+            ]
+        },
+        {
+            "cluster_id": 18,
+            "documents": [
+                "ANH - Nữ bệnh nhân gục trên ghế sau 8 tiếng được đưa tới bệnh viện cấp cứu do đau đầu dữ dội.",
+                "6 người con của ông Chính lần lượt mắc bệnh lạ mà mất khiến vợ ông đổ bệnh tâm thần rồi qua đời. Nay con trai thứ 7 gặp nạn nguy kịch bên xứ người, ông chẳng có cách nào xoay xở cứu tính mạng con."
+            ]
+        },
+        {
+            "cluster_id": 19,
+            "documents": [
+                "13 trận động đất liên tiếp xảy ở huyện Kon Plông, trong đó trận lớn nhất 5 độ gây rung chấn ở nhiều tỉnh, thành Tây Nguyên, miền Trung cách đó hàng trăm km.",
+                "Trận động đất 5 độ richter - lớn nhất từ trước tới nay ở Kon Tum, người dân miền Trung, Tây Nguyên cảm nhận rung lắc, tường nứt, đồ đạc rơi xuống đất, trưa 28/7."
+            ]
+        },
+        {
+            "cluster_id": 20,
+            "documents": [
+                "Các đơn vị chuyên môn đang tập trung khắc phục sự cố vết nứt kéo dài trên mặt đường đèo Prenn ở TP Đà Lạt, tỉnh Lâm Đồng.",
+                "Sau một năm nâng cấp và sử dụng, đường đèo Prenn, cửa ngõ vào trung tâm Đà Lạt, xuất hiện vết nứt dài 20 m, nhà thầu nhận định do mưa lớn kéo dài."
+            ]
+        },
+        {
+            "cluster_id": 21,
+            "documents": [
+                "Trường ĐH Y Dược - ĐHQGHN vừa công bố kết quả xét tuyển đại học năm 2024 theo các phương thức xét tuyển sớm (ngoài phương thức sử dụng điểm thi tốt nghiệp THPT).",
+                "Đại diện Trường ĐH Công nghiệp Hà Nội đã đưa ra những dự đoán về điểm chuẩn các ngành của trường năm 2024 theo phương thức xét điểm thi tốt nghiệp THPT."
+            ]
+        },
+        {
+            "cluster_id": 22,
+            "documents": [
+                "Ra sân với đội hình mạnh nhưng Chelsea vẫn nhận thất bại nặng nề 1-4 trước Celtic, trong trận giao hữu trên đất Mỹ.",
+                "Chelsea tiếp tục chuyến du đấu Mỹ bằng trận đấu với Celtic tại Notre Dame (South Bend, Mỹ) vào rạng sáng nay (28/7). Đội bóng của HLV Enzo Maresca nhận thất bại đau đớn 1-4."
+            ]
+        },
+        {
+            "cluster_id": 23,
+            "documents": [
+                "Bộ Ngoại giao Israel cho biết Hezbollah đã vượt qua mọi lằn ranh đỏ trong vụ rocket rơi trúng sân bóng khiến 12 người thiệt mạng.",
+                "Israel cáo buộc Hezbollah phóng một quả rocket từ Lebanon vào sân bóng tại thị trấn ở Cao nguyên Golan, khiến 12 thanh thiếu niên thiệt mạng."
+            ]
+        },
+        {
+            "cluster_id": 24,
+            "documents": [
+                "5 học sinh Việt Nam tham gia Olympic Vật lý quốc tế năm 2024 đều giành huy chương gồm: 2 Huy chương Vàng, 3 Huy chương Bạc.",
+                "Cả 5 học sinh tham dự Olympic Vật lý quốc tế (IPhO) đều giành huy chương, gồm hai vàng, ba bạc."
+            ]
+        },
+        {
+            "cluster_id": 25,
+            "documents": [
+                "Truyền thông đưa tin Liên minh châu Âu đã sẵn sàng phạt Meta hơn 13 tỷ USD do liên kết Facebook với Marketplace trong vài tuần tới.",
+                "Kết quả bóng đá hôm nay 28/7/2024, với các trận đấu trong nước và các giải tại châu Âu, châu Mỹ và châu Á đêm nay, rạng sáng mai."
+            ]
+        },
+        {
+            "cluster_id": 26,
+            "documents": [
+                "Giám đốc cơ quan tình báo quốc phòng Ukraine Kyrylo Budanov tuyên bố muốn cho nổ cầu Crimea lần thứ 3, nhưng vì sao đến giờ Kiev chưa dùng tên lửa ATACMS do Mỹ viện trợ để tấn công?",
+                "Bộ Quốc phòng Nga tuyên bố, quân đội nước này vừa tiến hành một vụ tấn công tên lửa mạnh mẽ nhằm vào một sở chỉ huy của Ukraine ở vùng miền đông Donbass."
+            ]
+        }
+    ],
+    "noise_documents": [
+        "MU đã ‘hớt tay trên’ được Leny Yoro nhờ chi bạo cả phí chuyển nhượng lẫn trả lương cho hậu vệ này cao gần gấp 4 lần so với đề nghị của Real Madrid.",
+        "NGA - Cô gái trẻ biết võ thuật đã hạ gục người yêu cũ khi anh trở thành khách \"không mời mà đến\" trong bữa tiệc sinh nhật của cô và có hành động quấy rối.",
+        "Phòng ngủ là nơi cần sự thư thái, yên tĩnh mang đến giấc ngủ ngon. Vì vậy, bạn cần chú ý các điều sau đây để tránh ảnh hưởng sức khỏe của bản thân và giấc ngủ mỗi ngày.",
+        "Nguyễn Hoàng Đức và Phạm Tuấn Hải cùng chung tay gây quỹ từ thiện tại giải bóng đá phong trào được tổ chức thường niên ở Hà Nội.",
+        "Nhà sản xuất ô tô nước Pháp Renault đã đưa ra một chương trình hoàn tiền kỳ lạ dành các cặp đôi ly hôn sau khi mua mẫu xe điện Renault Scenic E-Tech.",
+        "Tai nạn liên hoàn xảy ra giữa 4 ô tô trên cao tốc Hà Nội – Hải Phòng đoạn qua tỉnh Hưng Yên, khiến tuyến đường bị ùn tắc kéo dài.",
+        "Cặp đôi Vũ Luân - Phương Lê không ngại trao nhau cử chỉ âu yếm. Trương Ngọc Ánh được khen ngày cảng trẻ đẹp dù đã U50.",
+        "Diện mạo mới của Chùa Cầu sau cuộc đại trùng tu đang nhận nhiều ý kiến trái chiều từ dư luận. Ông Trần Đình Thành - Phó Cục trưởng Cục Di sản văn hóa (Bộ VH-TT&DL) đã lên tiếng.",
+        "Quả nhãn chứa đường giúp giảm căng thẳng nhưng ăn nhiều làm tăng đường huyết đột ngột, mụn nhọt.",
+        "Những đốm sáng xuất hiện và bay lơ lửng phía trên mặt nước ở con sông Winnipeg ở tỉnh Manitoba (Canada). Đó là một trong những clip \"gây sốt\" và nổi bật mạng xã hội tuần qua.",
+        "Đánh dấu 35 năm hoạt động, ca sĩ Long Nhật tổ chức liveshow quy tụ nhiều giọng ca nổi tiếng, trong đó có NSND Thu Hiền.",
+        "VinFast VF 3 bản thương mại đã hoàn thiện hơn nhiều chỉ trong 2 tháng, đặc biệt là phần nội thất, trong đó xe có một số tinh chỉnh về hình thức",
+        "Tôi 24 tuổi, quen một anh 27 tuổi; nhà anh rất giàu, ba mẹ anh đi lên từ hai bàn tay trắng, hai nhà không môn đăng hộ đối.",
+        "Em đạt 24,45 điểm khối A00 (Toán, Lý, Hóa), muốn học Điện tử viễn thông nhưng chưa biết chọn trường nào.",
+        "An ninh tại thủ đô Paris của Pháp đang trở thành vấn đề nóng đối với Thế vận hội năm nay. Chất lượng dòng nước sông Seine có thể khiến cho môn thi đấu của Olympic buộc phải dời địa điểm.",
+        "Huỳnh Hồng Loan cho biết, là một diễn viên nên cô tuân thủ ý đồ của đạo diễn và biên kịch.",
+        "Thống kê từ Cục An toàn thông tin, lũy kế đến tháng 6, đơn vị này đã ngăn chặn 3.170 website lừa đảo trực tuyến, tương ứng với việc bảo vệ gần 11 triệu người dân khỏi các website lừa đảo, vi phạm pháp luật.",
+        "Hơn 200 tàu bao gồm các tàu tên lửa nhỏ, tàu chống ngầm, và tàu quét mìn tham gia cuộc duyệt binh kỷ niệm Ngày Hải quân Nga. Tổng thống Putin đã tới dự và có bài phát biểu.",
+        "Nhân dịp kỷ niệm 77 năm Ngày Thương binh - Liệt sĩ, Đài Hà Nội sẽ thực hiện chương trình chính luận nghệ thuật \"Miền xa thẳm\" với sự tham gia của nhiều nghệ sĩ như: NSND Tấn Minh, NSND Mai Hoa...",
+        "Sau thời gian dài hẹn hò tìm hiểu nhau, cặp đôi chính thức làm lễ đính hôn ngọt ngào và sẽ tổ chức đám cưới vào một ngày không xa.",
+        "Tọa lạc tại trung tâm tam giác ba thành phố Hồi Hột, Bao Đầu và Ngạc Nhĩ Đa Tư (Khu tự trị Nội Mông Cổ, Trung Quốc), sa mạc Vọng Âm không chỉ là một khu nghỉ dưỡng mà còn là một điểm đến với đầy đủ các hoạt động giải trí vô cùng thú vị.",
+        "Sinh viên ngành Ngôn ngữ Tây Ban Nha, Italy và Ả Rập có thể làm biên, phiên dịch hoặc nhân viên văn phòng, hướng dẫn viên với lương khởi điểm khoảng 10-12 triệu đồng một tháng.",
+        "TRUNG QUỐC - Một người đàn ông 60 tuổi ở Cao Hùng, Đài Loan thường xuyên gây rối và là nỗi lo của hàng xóm. Vậy nên, sau khi ông này bán căn hộ của mình và chuyển đi, cả chung cư \"vui như trẩy hội\".",
+        "Ấn Độ - Chiếc xe Hyundai Creta liều lĩnh vượt ẩu ở khúc cua có đông phương tiện và đáng kinh ngạc là phía trên nóc xe là một người phụ nữ đang thò hẳn đầu ra cửa sổ trời để ngắm cảnh.",
+        "Tối 27/7, tập 3 chương trình thực tế hẹn hò \"Đảo thiên đường\" lên sóng, nhận được sự quan tâm của nhiều khán giả khi có sự xuất hiện của người chơi mới và màn thử thách bãi biển của dàn người đẹp.",
+        "MỸ - Câu chuyện về cậu bé 11 tuổi dành 2 ngày cầm biển kêu gọi quyên góp tiền giúp chôn cất mẹ bên đường ray ở Lindale, tiểu bang Georgia mới đây đã khiến nhiều người cảm động.",
+        "Câu chuyện xúc động của Bằng Kiều trong \"Anh trai vượt ngàn chông gai\" nhận được nhiều sự đồng cảm từ khán giả.",
+        "Tôi ngại khi để chồng biết chuyện đó nên trong lòng khó xử, dù đó không phải chuyện sai trái.",
+        "Dù bị cấm nuôi và buôn bán nhưng đuông dừa - loại côn trùng gây hại cho cây dừa - vẫn được rao bán công khai trên mạng xã hội.",
+        "Nhiều siêu xe qua tay Cường Đô-la nhưng tính đến nay, chiếc xe đắt nhất của tay chơi phố núi có giá trị chỉ hơn 40 tỷ đồng.",
+        "Do không đảm bảo thành viên hội đồng quản trị đáp ứng tiêu chuẩn, điều kiện - để kế toán trưởng kiêm nhiệm chức vụ thành viên HĐQT - nên Công ty In Hàng không bị UBCKNN xử phạt.",
+        "Chọn sinh liền 2 con, vợ chồng chị Thanh Hồng bất đắc dĩ “ly thân” dù sống chung nhà. Hai người chia con để chăm và ở 2 phòng khác nhau.",
+        "Bà Lê Thu Vân, bị can trong vụ án tịnh thất Bồng Lai, sau hơn 2 năm bị khởi tố, cho tại ngoại chờ xét xử thì tử vong vì bị bệnh.",
+        "Tuần qua, hàng loạt tai nạn liên quan tới khách du lịch đã được ghi nhận ở nhiều nơi trên thế giới, từ khỉ tấn công một cậu bé để giành đồ ăn, ngựa cắn vào tay du khách đứng gần cho tới tàu cháy bất ngờ.",
+        "Nhà vô địch marathon Hành trình về Làng Sen 2024 Hoàng Văn Hơn đánh bại chân chạy người Kenya Kipchumba, lên ngôi tại giải chạy băng đồng Mitsubishi Motors Vietnam Cu Chi City Trail 2024.",
+        "Mưa lớn do bão Gaemi gây ra lở đất ở ngôi làng tại tỉnh Hồ Nam, phá hủy một phần tòa nhà và khiến 15 người thiệt mạng.",
+        "Bộ trưởng Y tế trả lời kiến nghị của cử tri sau kỳ họp thứ 7 Quốc hội khoá XV liên quan việc hỗ trợ mức đóng bảo hiểm y tế tự nguyện khi mức lương cơ sở tăng.",
+        "Tên gọi của thành phố này có 5 chữ cái, ngắn nhất trong 25 tỉnh, thành ở miền Bắc. Bạn có biết nó thuộc địa phương nào?",
+        "Với tình huống \"mất an ninh nguồn phóng xạ nhóm A\", nhiều lực lượng đã phối hợp xử lý, thu gom toàn bộ nguồn và khu vực nhiễm bẩn phóng xạ.",
+        "Dù ở độ tuổi vàng để hẹn hò, nhiều thanh niên Trung Quốc có tâm lý \"ngại yêu\". Hiện tượng này gây nên không ít lo lắng.",
+        "Nhiều thương binh cho rằng, việc Chính phủ tăng mức chuẩn trợ cấp từ 2.055.000 đồng lên 2.789.000 đồng giúp họ cải thiện đời sống, thể hiện sự quan tâm của Đảng và Nhà nước với người có công.",
+        "Con gái bị đau bụng, buồn nôn, sốt được mẹ cho uống thuốc rối loạn tiêu hóa. Hai ngày sau, trẻ phải cấp cứu trong tình trạng nguy kịch do viêm phúc mạc vỡ ruột thừa.",
+        "Tiến sĩ, bác sĩ Nguyễn Thành Nhơn vừa ra mắt cuốn sách đầu tay \"Nhân tố quyết định nên người thành đạt\", dựa trên nghiên cứu khoa học về năng lực cốt lõi tại Đại học Nam California, Mỹ.",
+        "Chủ tịch Quốc hội Trần Thanh Mẫn bày tỏ, lúc sinh thời, Tổng Bí thư Nguyễn Phú Trọng luôn dành tình cảm đặc biệt, tin tưởng và đặt nhiều kỳ vọng đối với giai cấp công nhân, tổ chức công đoàn.",
+        "Cả Olympic đã cảm thấy bàng hoàng khi HLV đội boxing của Samoa, Lionel Elika Fatupaito, đã đột tử trong làng Olympic.",
+        "Thanh Hương - nữ diễn viên \"Người một nhà\" được nhận xét ngày càng gợi cảm. Cô chăm chỉ đăng ảnh mặc bikini táo bạo khoe đường cong trên trang cá nhân sau khi công khai độc thân.",
+        "Nico Williams nhận đề nghị gia hạn khủng từ Athletic Bilbao, Barca cần phải hành động nhanh hơn, nếu muốn có cầu thủ này chơi cùng Lamine Yamal.",
+        "Đội tuyển nữ Canada bị FIFA trừ 6 điểm tại Olympic Paris 2024 vì sử dụng máy bay không người lái do thám đối thủ.",
+        "'Mới yêu, các khoản chi phí không lớn mà còn không lo được, đòi hỏi bạn gái phải phụ vào thì không đáng mặt đàn ông', nhiều người nghĩ vậy.",
+        "Tổng thống Putin tuyên bố Nga có thể sản xuất trở lại vũ khí hạt nhân tầm trung, nếu Mỹ quyết bố trí tên lửa tầm xa ở Đức.",
+        "Tôi hỏi: \"Phải chăng anh hết yêu em\"? Anh đáp: \"Không phải, nhưng anh có một người ở cạnh có chung tư tưởng, cùng chí hướng hơn em\".",
+        "Bất động sản tuần qua nổi bật với tin tức về loạt sếp lớn doanh nghiệp bất động sản xin từ nhiệm; nhiều khu đô thị mới phía Tây Hà Nội ngập sâu trong biển nước; Hà Nội tăng hệ số điều chỉnh giá đất…",
+        "Người Việt đổ tiền mua sắm online; Số tài khoản bị lộ lọt do nhiễm mã độc tăng vọt... là những thông tin công nghệ trong nước nổi bật tuần qua.",
+        "Việc đánh sập những cứ điểm phòng ngự cuối cùng của Ukraine ở phía tây Adviivka cho phép lực lượng Moscow tiến xa hơn và họ chỉ còn cách thành phố lớn Pokrovsk chừng 17km.",
+        "ẤN ĐỘ - Vận may của một người lao động đang mắc nợ đã thay đổi chỉ sau một đêm, khi anh ta tìm thấy một viên kim cương khổng lồ trong một khu mỏ ở bang Madhya Pradesh, miền trung Ấn Độ.",
+        "Trong bối cảnh thị trường lao động ngày càng cạnh tranh, chương trình thạc sĩ quốc tế là một trong những giải pháp phù hợp để trau dồi kiến thức chuyên môn và tăng cơ hội việc làm ở thị trường trong nước và quốc tế.",
+        "Lái xe phóng nhanh, vượt ẩu hoặc đột ngột dừng xe giữa đường không chỉ khiến bản thân tài xế gặp khó mà còn làm cho những phương tiện xung quanh \"vạ lây\".",
+        "Theo Luật Trật tự, an toàn giao thông đường bộ có hiệu lực vào ngày 1-1-2025, người gây tai nạn giao thông phải ở lại hiện trường.",
+        "Hút thuốc đã rất tác hại với sức khỏe, môi trường, hút thuốc trên ô tô càng tai hại hơn, kể cả trong lúc ô tô mở cửa.",
+        "Xây dựng Hòa Bình lên kế hoạch trở lại HoSE vào 2 năm tới, sau khi bị hủy niêm yết bắt buộc do lỗ lũy kế vượt vốn điều lệ thực góp.",
+        "Tàu SE11 đang di chuyển từ ga Lăng Cô (Thừa Thiên - Huế) vào Đà Nẵng thì bị trật bánh hai toa, trong đó một toa nghiêng 45 độ.",
+        "Sau khi Bí thư tỉnh Quảng Nam ra \"tối hậu thư\", Công ty Cổ phần Đầu tư Hoàng Nhất Nam và Công ty Cổ phần Bách Đạt An liên quan vụ nợ 1.000 sổ đỏ, đã có buổi đàm phán.",
+        "Trên trang cá nhân, danh hài Thúy Nga vui mừng thông báo đã sửa chữa và trang trí xong căn biệt thự mới tại Mỹ sau 8 tháng thi công.",
+        "Kim Young-hoon, một người đàn ông đến từ Hàn Quốc, vừa được công nhận là người có chỉ số IQ cao nhất thế giới. Thông tin do Hội đồng Thể thao Trí tuệ Thế giới đưa ra.",
+        "Các tàu chiến thuộc Hạm đội Baltic của Nga đã đến cảng Havana của Cuba, bắt đầu chuyến thăm chính thức.",
+        "Nhiều bà nội trợ có thói quen thắng đường ở nhiệt độ cao để làm nước màu cho các món kho đẹp mắt nhưng nếu đun quá lửa gây cháy sẽ có hại cho sức khỏe.",
+        "Con gái tôi luôn cảm thấy xấu hổ khi mẹ có 3 đời chồng hờ. Vì vậy, con tìm cách xa lánh gia đình, không muốn bạn trai biết đến tôi.",
+        "Tôi muốn có gia đình hạnh phúc, sẽ cố gắng hết sức nhưng nhiều lúc thấy mệt mỏi, suy nghĩ vì vợ không chia sẻ, cảm thông.",
+        "Song Luân đang gây chú ý khi tham gia chương trình \"Anh trai say hi\" nhờ ngoại hình nổi bật và những màn trình diễn ấn tượng.",
+        "Xác định không lấy vợ, sinh con, mất hết động lực kiếm tiền, bạn tôi chọn về nông thôn, làm việc tự do chứ không bán mình cho tổ chức.",
+        "Sau rất nhiều lần tới Việt Nam, nữ phóng viên Hannah Shewan Stevens của tờ Insider quyết định chinh phục cung đường đèo đẹp nhưng nguy hiểm ở Hà Giang.",
+        "Trong quý vừa rồi, công ty này chỉ đạt 3,1 tỷ đồng lợi nhuận sau thuế, giảm gần 94% so với cùng kỳ. Doanh thu xuất khẩu 9 tháng suy giảm rất mạnh cả về sản phẩm vàng mã, giấy đế lẫn tinh bột sắn.",
+        "Theo nghị định mới vừa được Chính phủ ban hành, nhà chung cư bị hư hỏng do cháy, nổ không còn đủ điều kiện bảo đảm an toàn để tiếp tục sử dụng sẽ bị di dời khẩn cấp.",
+        "Theo dữ liệu của Numbeo, gia đình 4 người tại TPHCM trung bình chi tiêu khoảng 44,2 triệu đồng/tháng, đắt hơn khoảng 5,3% so với Hà Nội nhưng rẻ hơn nhiều nước trong khu vực Đông Nam Á.",
+        "Sau hơn 2 năm ông Trịnh Văn Quyết bị bắt, hàng loạt tài sản liên quan đến vị đại gia này đã bị rao bán để thu hồi nợ. Đến nay, nhiều tài sản đã có người mua lại.",
+        "Trực tiếp Olympic 2024 ngày 28/7 - Cập nhật liên tục những diễn biến nổi bật, thành tích của các VĐV Việt Nam tại Thế vận hội Paris 2024 mới nhất.",
+        "Hải quan cửa khẩu cảng Hải Phòng khu vực 2 đang tìm chủ sở hữu chiếc Toyota Land Cruiser Prado 2023 được nhập cảnh vào Việt Nam từ ngày 14/2.",
+        "Tận dụng tối đa chất thải, một công nghệ mới phát triển để chuyển đổi chất thải chuối thành sợi dệt. Phần còn lại của chất thải trong quá trình tạo ra vải chuối sẽ dùng để sản xuất năng lượng tái tạo.",
+        "CAMPUCHIA - Xác một con cá hải tượng long bí ẩn, nặng tới 70kg đã được phát hiện trong ao đền Angkor Wat, khu di tích lịch sử nổi tiếng ở làng Krakan, Siem Reap.",
+        "Vivian, cô con gái chuyển giới của Elon Musk, đã lần đầu lên tiếng về cách đối xử của cha mình lúc Musk phát hiện ra cô có xu hướng giới tính nữ từ khi còn là một đứa trẻ.",
+        "Trung Quốc - Giành chiến thắng trước nhiều ca sĩ quốc tế trong chương trình \"Ca sĩ 2024\" song \"thiên hậu\" Na Anh lại nhận về nhiều phản ứng tiêu cực từ phía khán giả.",
+        "Bảng tổng sắp huy chương Olympic 2024 - Cập nhật liên tục, chính xác và sớm nhất bảng tổng sắp huy chương Olympic Paris 2024.",
+        "Đây có thể là hồi kết cho thương hiệu từng rất được ca ngợi của rapper tai tiếng Kanye West.",
+        "Tay vợt người Serbia Novak Djokovic và tay vợt người Tây Ban Nha Carlos Alcaraz đã khởi đầu nhanh chóng ở vòng đấu đầu tiên tại Olympic Paris 2024.",
+        "Các thợ lặn tìm thấy số lượng lớn chai rượu champagne và nước khoáng có niên đại khoảng 170 năm trong một con tàu buồm chìm dưới Biển Baltic.",
+        "Mất tiền khi gửi trực tuyến rất hiếm khi xảy ra nhưng để phòng ngừa những tình huống không mong muốn, khách hàng nên bảo mật tốt thông tin tài khoản.",
+        "Trong vòng công diễn đầu tiên, tiết mục của nhóm SOOBIN, Tự Long được khán giả gây ấn tượng nhưng có thứ hạng thấp bất ngờ, kém điểm của nhiều nhóm xếp trên.",
+        "Microsoft sẽ hạn chế các nhà cung cấp bảo mật truy cập vào hạt nhân hệ điều hành để tránh sự cố tương tự gây ra bởi CrowdStrike.",
+        "Bảo tàng Thượng Hải mở triển lãm với chủ đề \"đêm mèo Ai Cập\" và nhanh chóng cháy vé khi nhiều người mang mèo tới tham quan.",
+        "Đại diện Báo VietNamNet vừa trao tận tay số tiền hơn 40 triệu đồng bạn đọc ủng hộ tới gia đình anh Trần Văn Quốc ở xã Hoà Khương, huyện Hoà Vang, Đà Nẵng.",
+        "Nhiều mẫu xe của hãng này được đặt tên theo các cơn gió với hàm ý lúc nhanh, mạnh mẽ, lúc hiền hòa.",
+        "Ăn 1-2 tép tỏi mỗi ngày có thể có lợi cho sức khỏe, nhưng ăn nhiều hơn có thể gây hôi miệng, ợ nóng, các vấn đề về dạ dày và các tác dụng phụ khó chịu khác.",
+        "Khu vực ban công vỏn vẹn 4m2, nằm hướng Tây nên mùa hè nắng gay gắt. Chị Yến Nguyễn (ở Hà Nội) khéo léo bố trí hơn 50 chậu cây các loại, từ cây thân rủ đến hoa, tạo thành góc vườn nhỏ xinh vừa tô điểm không gian, vừa giảm nhiệt những ngày hè oi bức.",
+        "Với số tiền chưa đến 200 triệu đồng, người mua xe lần đầu có thể chọn mua ô tô số sàn đời cao để loại trừ nguy cơ dùng phải xe bị lỗi, hư hỏng cần sửa chữa.",
+        "Thông qua dữ liệu tọa độ cung cấp từ máy bay không người lái (UAV), kíp chiến đấu HIMARS Ukraine đã vô hiệu hóa thành công xe phòng không Pantsir của Nga.",
+        "Món đặc sản này từng được công nhận đạt giá trị Kỷ lục châu Á, chế biến từ các nguyên liệu quen thuộc của vùng đất An Giang như lá non và bông sầu đâu, trộn cùng thịt luộc hoặc khô cá nướng,… nêm nước mắm me chua ngọt vừa ăn.",
+        "Tròn 10 năm sau khi hoạ sĩ người Anh nổi tiếng thế kỷ 20, Norman Cornish qua đời, bức chân dung tự hoạ của ông được tìm thấy ở mặt sau của một tác phẩm nghệ thuật khác.",
+        "Bộ Quốc phòng mới đây nhận được kiến nghị của cử tri tỉnh Bắc Ninh đề nghị nghiên cứu sửa đổi Luật Nghĩa vụ quân sự theo hướng tăng số lượng công dân nhập ngũ, giảm thời gian tại ngũ.",
+        "Việt Hoa có nhiều cảnh siêu ngọt ngào với bạn diễn Thanh Sơn trong \"Mình yêu nhau, bình yên thôi\" dù ngoài đời đã có chồng là diễn viên Vương Trọng Trí - một gương mặt quen thuộc trên sóng giờ vàng.",
+        "Bị ung thư phổi nhưng nữ điều dưỡng không điều trị theo phác đồ của bác sĩ mà chọn phương pháp nhịn ăn \"chữa lành\" khiến cơ thể suy nhược, tế bào ung thư di căn vô phương cứu chữa.",
+        "TRUNG QUỐC - Sử Hạo Gia đến từ đội tuyển Trung Quốc trở thành thí sinh duy nhất đạt điểm tuyệt đối 42/42 trong kỳ Olympic Toán quốc tế năm 2024.",
+        "Sở hữu chiều cao ấn tượng, chàng trai Sài thành Phạm Thanh Trung (SN 2004), nổi tiếng trên TikTok với biệt danh “chú Bin sắp 2m”.",
+        "Chúng tôi ngồi im nghe bà mắng, sau đó vợ lên phòng khóc, bảo khổ quá, hay tôi đổi việc để có thời gian chăm con.",
+        "Xuất thân trong dòng tộc có nền tảng học thức cao, Diệu Hoa là ''Hoa hậu thông thạo nhiều ngoại ngữ nhất''. Chị có cuộc hôn nhân hạnh phúc với chồng doanh nhân người Ấn Độ.",
+        "Cuốn sách \"Vạn vật vận hành ra sao?\" của Tom Jackson sẽ giải đáp cho độc giả hiểu lý do vì sao không nên đổ trực tiếp dầu mỡ thừa vào ống thoát nước và vì sao khi trời giông sét, con người tuyệt đối không nên đứng trú dưới tán cây.",
+        "Cù Minh Bình, 34 tuổi, bị cáo buộc đâm chết bạn nhậu sau khi bị phàn nàn việc nôn mửa trong phòng trọ.",
+        "Trong những năm chiến tranh phá hoại, mẹ Hoàng Thị Chắt nhiều lần nhường nhà cho bộ đội và công nhân. Mẹ có 2 người con trai hi sinh trong các cuộc chiến đấu bảo vệ tổ quốc.",
+        "Để bảo vệ và giữ bí mật đời tư của nạn nhân, vụ án Phạm Huỳnh Nhật Vi bắt cóc hai đứa trẻ ở phố đi bộ Nguyễn Huệ để quay video khiêu dâm, sẽ được xét xử kín.",
+        "'Có ba cái đồng bạc mà đòi hoài, chừng nào có thì trả', bạn lật giọng khi tôi nhất quyết đòi lại 10 triệu cho vay từ 5 năm trước.",
+        "Corvette ZR1 trang bị động cơ 5,5 lít V8 tăng áp kép, công suất 1.064 mã lực, trọng lượng dưới 1.700 kg.",
+        "Khi người Hàn quay lưng với thịt chó do ảnh hưởng từ lệnh cấm của chính phủ, các chủ nhà hàng bắt đầu chuyển qua bán thịt dê đen.",
+        "Công trình được thiết kế ưu tiên cách lấy sáng, đảm bảo an toàn khi sinh hoạt cho người lớn tuổi và kết nối ba thế hệ.",
+        "Các nữ cảnh sát trẻ và nam sĩ quan giả gái cùng mặc thường phục đi dạo trên những con đường tối, đợi 'Kẻ hiếp dâm Clifton' tấn công.",
+        "Võ sĩ boxing Việt Nam, Hà Thị Linh đã giành chiến thắng áp đảo trước tay đấm không được đánh giá cao Feofaaki Epenisa để giành quyền vào vòng 1/16 tại Olympic Paris 2024.",
+        "Chiếc ô tô vào cua tốc độ cao trên đường trơn đã bị mất lái, xoay một vòng trên đường như phim hành động. Đây là lời cảnh báo và là một trong những tình huống giao thông nổi bật tuần qua."
+    ]
+}
