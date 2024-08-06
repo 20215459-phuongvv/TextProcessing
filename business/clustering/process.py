@@ -4,14 +4,15 @@ from .vectorizer import vectorize_documents
 from .cluster import compute_distance_matrix, cluster_documents
 from schema.response import ClusterResponse
 from datetime import datetime
+from config.env import ENV
 import json
 
 class ClusterService:
     @staticmethod
     def cluster_documents() -> ClusterResponse:
-        uri = "mongodb+srv://phuongvv:kjnhkjnh@vht.w3g8gh9.mongodb.net/?retryWrites=true&w=majority&appName=VHT"
-        database_name = "vht"
-        collection_name = "test"
+        uri = ENV.MONGO_URI
+        database_name = ENV.DATABASE_NAME
+        collection_name = ENV.COLLECTION_NAME
 
         # Fetch data
         documents = fetch_posts_from_mongodb(uri, database_name, collection_name)
@@ -67,10 +68,10 @@ class ClusterService:
             result_data["clusters"].append(cluster_info)
 
         # Ghi dữ liệu vào tệp JSON
-        current_time = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
-        filename = f'storage/clusters_{current_time}.json'
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(result_data, f, ensure_ascii=False, indent=4)
+        # current_time = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+        # filename = f'storage/clusters_{current_time}.json'
+        # with open(filename, 'w', encoding='utf-8') as f:
+        #     json.dump(result_data, f, ensure_ascii=False, indent=4)
 
         # In ra để kiểm tra
         print("Number of clusters:", result_data["num_clusters"])

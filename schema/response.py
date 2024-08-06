@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import List, Optional
-
+from datetime import datetime
 class ClusterInfo(BaseModel):
     cluster_id: int
     documents: List[str]
@@ -21,3 +21,11 @@ class ClusterResponse(BaseModel):
             clusters=[ClusterInfo(cluster_id=cluster["cluster_id"], documents=cluster["documents"]) for cluster in data["clusters"]],
             noise_documents=data["noise_documents"]
         )
+    
+class SummarizeInfo(BaseModel):
+    cluster_id: int
+    time: datetime
+    summarizeContent: str
+    
+class SummarizeResponse(BaseModel):
+    summarizedCluster: Optional[List[SummarizeInfo]] = None

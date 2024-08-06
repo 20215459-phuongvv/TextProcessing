@@ -1,13 +1,13 @@
 import http
-from schema.response import ClusterResponse
+from schema.response import SummarizeResponse
 from config.env import ENV
 from fastapi import APIRouter
 from pydantic import BaseModel
-from business.clustering.process import ClusterService
+from business.summarizing.summarize import SummarizeService
 
 env = ENV()
 router = APIRouter()
 
-@router.get("/cluster-documents", response_model=ClusterResponse)
+@router.get("/summarize-clusters", response_model=SummarizeResponse)
 def cluster_content_type():
-    return ClusterService.cluster_documents()
+    return SummarizeService.summarize_documents()

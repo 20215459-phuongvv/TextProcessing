@@ -5,7 +5,7 @@ from collections import OrderedDict
 from copy import deepcopy
 import numpy as np
 
-THRESHOLD = 0.25
+THRESHOLD = 0.35
 
 def distance(vecs):
     vec1 = vecs[0]
