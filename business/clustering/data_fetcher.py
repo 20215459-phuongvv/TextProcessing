@@ -14,7 +14,7 @@ def fetch_posts_from_mongodb(uri, database_name, collection_name):
 
     now = datetime.now()
     # Định nghĩa đầu ngày hiện tại (giữa đêm) và cuối ngày
-    start_of_day = datetime(now.year, now.month, now.day) - timedelta(days=3)
+    start_of_day = datetime(now.year, now.month, now.day) - timedelta(days=1)
     end_of_day = start_of_day + timedelta(days=1) - timedelta(seconds=1)
     print(start_of_day)
     print(end_of_day)
@@ -27,5 +27,12 @@ def fetch_posts_from_mongodb(uri, database_name, collection_name):
     })
     # .limit(200)
     .sort("time", -1))
-    texts = [post.get('summary') for post in posts if post.get('summary') is not None]
-    return texts
+    documents = [
+        {
+            'text': post.get('summary'),
+            'time': post.get('time')
+        }
+        for post in posts
+        if post.get('summary') is not None and post.get('time') is not None
+    ]
+    return documents

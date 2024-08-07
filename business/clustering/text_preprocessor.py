@@ -32,13 +32,18 @@ def removeRedundant(text,redundantSet):
     words = ' '.join(words)
     return words
 
-def preprocessing(text):
+def preprocessing(document):
+    text = document.get('text', '')
     text = ' '.join(word_tokenize(text))
     text = text.lower()
     text = ' '.join(text.split())
     text = text + generateBigram(text)
-    text = removeRedundant(text,puct_set | stopwords)
-    return text
+    text = removeRedundant(text, puct_set | stopwords)
+    return {
+        'time': document.get('time'),
+        'text': text
+    }
+
 
 def preprocess_documents(documents, num_workers=10):
     pool = Pool(num_workers)

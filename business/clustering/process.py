@@ -2,7 +2,7 @@ from .data_fetcher import fetch_posts_from_mongodb
 from .text_preprocessor import preprocess_documents
 from .vectorizer import vectorize_documents
 from .cluster import compute_distance_matrix, cluster_documents
-from schema.response import ClusterResponse
+from schema.response import ClusterResponse, DocumentInfo, ClusterInfo
 from datetime import datetime
 from config.env import ENV
 import json
@@ -21,7 +21,7 @@ class ClusterService:
         clean_documents = preprocess_documents(documents)
 
         # Remove empty documents after preprocessing
-        clean_documents = [doc for doc in clean_documents if doc.strip()]
+        clean_documents = [doc for doc in clean_documents if doc['text'].strip()]
 
         # Check if there are any documents left after preprocessing
         if not clean_documents:
@@ -29,7 +29,7 @@ class ClusterService:
             return
 
         # Vectorize documents
-        vectors = vectorize_documents(clean_documents)
+        vectors = vectorize_documents([doc['text'] for doc in clean_documents])
 
         # Compute cosine distance matrix
         distance_matrix = compute_distance_matrix(vectors)
@@ -37,35 +37,42 @@ class ClusterService:
         # Clustering
         res_cluster = cluster_documents(distance_matrix)
 
-        # Hiển thị kết quả
-        # print("Number of clusters:", len(res_cluster))
-        # print("Number of clustered documents:", len([j for i in res_cluster for j in i]))
-        # print("Number of noise documents:", len(documents) - len([j for i in res_cluster for j in i]))
-        # for i, cluster in enumerate(res_cluster):
-        #     print("Cluster", i)
-        #     for idx in cluster:
-        #         print(documents[idx].split('\n')[0])
-        #     print()
-
         # Tìm danh sách các tài liệu không thuộc cụm nào
         clustered_indices = {idx for cluster in res_cluster for idx in cluster}
-        noise_documents = [documents[i].split('\n')[0] for i in range(len(documents)) if i not in clustered_indices]
 
         # Chuẩn bị dữ liệu để ghi vào tệp
         result_data = {
             "num_clusters": len(res_cluster),
             "num_clustered_documents": len(clustered_indices),
-            "num_noise_documents": len(noise_documents),
+            "num_noise_documents": None,
             "clusters": [],
-            "noise_documents": noise_documents
+            "noise_documents": []
         }
 
         for i, cluster in enumerate(res_cluster):
             cluster_info = {
                 "cluster_id": i,
-                "documents": [documents[idx].split('\n')[0] for idx in cluster]
+                "documents": [
+                    {
+                        "time": documents[idx]['time'],
+                        "text": documents[idx]['text'].split('\n')[0]
+                    }
+                    for idx in cluster
+                ]
             }
             result_data["clusters"].append(cluster_info)
+
+        noise_documents = {
+            "documents": [
+                {
+                    "time": documents[i]['time'],
+                    "text": documents[i]['text'].split('\n')[0]
+                }
+                for i in range(len(documents)) if i not in clustered_indices
+            ]
+        }
+        result_data["noise_documents"] = noise_documents
+        result_data["num_noise_documents"] = len(noise_documents["documents"])
 
         # Ghi dữ liệu vào tệp JSON
         # current_time = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")

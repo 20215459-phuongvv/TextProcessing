@@ -18,7 +18,7 @@ def chunks_vec(l, n):
     for i in range(0, l.shape[0], n):
         yield l[i:i + n]
 
-def compute_distance_matrix(vectors, chunk_size=1000, num_workers=2):
+def compute_distance_matrix(vectors, chunk_size=500, num_workers=2):
     vector_chunks = list(chunks_vec(vectors, chunk_size))
     vector_chunks = [(i, vectors) for i in vector_chunks]
 

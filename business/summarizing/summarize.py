@@ -12,13 +12,14 @@ class SummarizeService:
     @staticmethod
     def summarize_documents() -> SummarizeResponse:
       data = ClusterService.cluster_documents()
-      clusters_to_process = [cluster for cluster in data.clusters if len(cluster.documents) > 2]
+      # clusters_to_process = [cluster for cluster in data.clusters if len(cluster.documents) > 2]
+      clusters_to_process = data.clusters[:10]
       return SummarizeResponse(
         summarizedCluster=[SummarizeInfo(
             cluster_id=cluster.cluster_id, 
             time=datetime.now(), 
             summarizeContent=model.generate_content(
-              prompt + ''.join(cluster.documents),
+              prompt + ''.join(doc.text for doc in cluster.documents),
               safety_settings={
                 HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_ONLY_HIGH,
                 HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_ONLY_HIGH,
