@@ -1,4 +1,4 @@
-from .data_fetcher import fetch_posts_from_mongodb
+from .data_fetcher import fetch_posts, fetch_clusters, fetch_events, find_cluster_by_event, update_cluster, save_clusters
 from .text_preprocessor import preprocess_documents
 from .vectorizer import vectorize_documents
 from .cluster import compute_distance_matrix, cluster_documents
@@ -13,10 +13,15 @@ class ClusterService:
         uri = ENV.MONGO_URI
         database_name = ENV.DATABASE_NAME
         collection_name = ENV.COLLECTION_NAME
+        cluster_collection_name = ENV.CLUSTER_COLLECTION_NAME
 
         # Fetch data
-        documents = fetch_posts_from_mongodb(uri, database_name, collection_name)
+        documents = fetch_posts(uri, database_name, collection_name)
+        events = fetch_events(uri, database_name, cluster_collection_name)
 
+        clusters = fetch_clusters(uri, database_name, cluster_collection_name)
+
+        documents.extend(events)
         # Preprocessing
         clean_documents = preprocess_documents(documents)
 
@@ -51,6 +56,7 @@ class ClusterService:
 
         for i, cluster in enumerate(res_cluster):
             cluster_info = {
+                "id": None,
                 "cluster_id": i,
                 "documents": [
                     {
@@ -79,14 +85,23 @@ class ClusterService:
         # filename = f'storage/clusters_{current_time}.json'
         # with open(filename, 'w', encoding='utf-8') as f:
         #     json.dump(result_data, f, ensure_ascii=False, indent=4)
-
-        # In ra để kiểm tra
-        print("Number of clusters:", result_data["num_clusters"])
-        print("Number of clustered documents:", result_data["num_clustered_documents"])
-        print("Number of noise documents:", result_data["num_noise_documents"])
-        # for cluster_info in result_data["clusters"]:
-        #     print("Cluster", cluster_info["cluster_id"])
-        #     for doc in cluster_info["documents"]:
-        #         print(doc)
-        #     print()
-        return ClusterResponse.from_json(result_data)
+        for event in events:
+            event_text = event["text"]
+            for cluster in result_data["clusters"]:
+                if any(doc['text'] == event_text for doc in cluster["documents"]):
+                    cluster_to_find = find_cluster_by_event(events, clusters, event)
+                    for doc in cluster["documents"]:
+                            if doc['text'] != event_text:
+                                cluster_to_find["documents"].append(doc)
+                    update_cluster(cluster_to_find, uri, database_name, cluster_collection_name)
+                    result_data["clusters"].remove(cluster)
+                    new_cluster = {
+                        "id": str(cluster_to_find["_id"]),
+                        "cluster_id": cluster["cluster_id"],
+                        "documents": cluster_to_find["documents"]
+                    }
+                    result_data["clusters"].append(new_cluster)
+        cluster_response = ClusterResponse.from_json(result_data)
+        # Save to database
+        # save_clusters(uri, database_name, cluster_collection_name, cluster_response)
+        return cluster_response

@@ -8,3 +8,5 @@ class ENV:
   DATABASE_NAME = os.getenv("DATABASE_NAME", "")
   COLLECTION_NAME = os.getenv("COLLECTION_NAME", "")
   MODEL = os.getenv("MODEL", "")
+  CLUSTER_DATABASE_NAME = os.getenv("CLUSTER_DATABASE_NAME", "")
+  CLUSTER_COLLECTION_NAME = os.getenv("CLUSTER_COLLECTION_NAME", "")

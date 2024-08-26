@@ -6,6 +6,7 @@ class DocumentInfo(BaseModel):
     time: datetime
     text: str
 class ClusterInfo(BaseModel):
+    id: Optional[str] = None
     cluster_id: int
     documents: List[DocumentInfo]
 
@@ -24,6 +25,7 @@ class ClusterResponse(BaseModel):
             num_noise_documents=data["num_noise_documents"],
             clusters=[
                 ClusterInfo(
+                    id=cluster["id"],
                     cluster_id=cluster["cluster_id"], 
                     documents=[
                         DocumentInfo(
@@ -42,9 +44,12 @@ class ClusterResponse(BaseModel):
         )
     
 class SummarizeInfo(BaseModel):
+    id: Optional[str] = None
     cluster_id: int
-    time: datetime
-    summarizeContent: str
+    last_updated: datetime
+    title: str
+    summarized_events: List[DocumentInfo]
+    documents: List[DocumentInfo]
     
 class SummarizeResponse(BaseModel):
-    summarizedCluster: Optional[List[SummarizeInfo]] = None
+    summarized_cluster: Optional[List[SummarizeInfo]] = None
