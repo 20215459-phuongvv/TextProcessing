@@ -10,7 +10,7 @@ def load_stopwords(file_path):
         stopwords = set(f.read().split('\n')[:-1])
     return stopwords
 
-absolute_path = 'D:\\VHT\\TextProcessing\\business\\clustering\\stopwords.txt'
+absolute_path = 'stopwords.txt'
 
 stopwords = load_stopwords(absolute_path)
 puct_set = set([c for c in '!"#$%&\'()*+,./:;<=>?@[\\]^`{|}~'])
