@@ -1,13 +1,16 @@
 import os
 from multiprocessing import Pool
 from nltk import word_tokenize
+import nltk 
+
+nltk.download('punkt_tab')
 
 def load_stopwords(file_path):
     with open(file_path, encoding='utf-8') as f:
         stopwords = set(f.read().split('\n')[:-1])
     return stopwords
 
-absolute_path = 'E:\\Intern Viettel High Tech\\Text Processing\\src\\business\\clustering\\stopwords.txt'
+absolute_path = 'D:\\VHT\\TextProcessing\\business\\clustering\\stopwords.txt'
 
 stopwords = load_stopwords(absolute_path)
 puct_set = set([c for c in '!"#$%&\'()*+,./:;<=>?@[\\]^`{|}~'])
