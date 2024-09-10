@@ -10,7 +10,8 @@ def load_stopwords(file_path):
         stopwords = set(f.read().split('\n')[:-1])
     return stopwords
 
-absolute_path = 'stopwords.txt'
+current_dir = os.path.dirname(os.path.abspath(__file__))
+absolute_path = os.path.join(current_dir, 'stopwords.txt')
 
 stopwords = load_stopwords(absolute_path)
 puct_set = set([c for c in '!"#$%&\'()*+,./:;<=>?@[\\]^`{|}~'])
